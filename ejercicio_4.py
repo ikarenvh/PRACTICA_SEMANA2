@@ -4,9 +4,9 @@
 #sin tener en cuenta mayúsculas y minúsculas.
 
 variable = "contraseña"
-password = input("Ingrese la contraseña: ")
+password = input("Ingresar la contraseña: ")
 if variable == password.lower():
-    print("La contraseña coincide")
+    print("La contraseña coincide.")
 else:
-    print("La contraseña no coincide")   
+    print("La contraseña no coincide.")   
 
