@@ -3,3 +3,10 @@
 #contraseña introducida por el usuario coincide con la guardada en la variable
 #sin tener en cuenta mayúsculas y minúsculas.
 
+variable = "contraseña"
+password = input("Ingrese la contraseña: ")
+if variable == password.lower():
+    print("La contraseña coincide")
+else:
+    print("La contraseña no coincide")   
+
